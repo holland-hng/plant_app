@@ -24,7 +24,10 @@ class HomeBody extends StatelessWidget {
             textButton: "More",
             press: () {},
           ),
-          FeaturedPlants(size: size)
+          FeaturedPlants(size: size),
+          SizedBox(
+            height: kDefaultPadding,
+          )
         ],
       ),
     );
